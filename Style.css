@@ -245,19 +245,19 @@ font-size: 16px;
   padding: 5px 10px;
   font-size: 0.8rem;
   border-radius: 3px;
-  top: 10px;
+  top: 20px;
   left: 10px;
 }
 
 .badge-featured{
   background-color: red;
   right: auto;
-  left: 300px;
+  left: 500px;
   border-radius: 3px;
   color: #ccc;
   padding: 5px 10px;
   position: relative;
-  bottom:210px ;
+  bottom:310px ;
   
 }
 
@@ -282,7 +282,7 @@ font-size: 16px;
 .section5{
   text-align: center;
   padding: 50px 20px;
-  
+  background-color:lightgrey;
 }
 
 .section5 h2{
@@ -324,9 +324,10 @@ font-size: 16px;
 .file img {
   object-fit: cover;
   transition: transform 0.3s ease;
+  width: 200% ;
 }
 
-.file img:hover{
+.file:hover img{
   transform: scale(1.1);
 }
 
@@ -374,9 +375,68 @@ color: white;
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #ccc;
+  background-color: white;
 }
 
 .indicator.active{
   background-color: black;
+}
+
+.sec6{
+  padding: 30px;
+  margin:0 auto;
+  align-items: center;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 8px;
+  max-width: 1000px;
+  
+}
+
+.image-box img{
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.caption{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color:lavender;
+  padding: 10px 15px;
+  border-radius: 10px;
+
+}
+ .caption p{
+  color: black;
+  font-size: 1rem;
+  margin: 0;
+  font-weight: bolder;
+ }
+
+.how-it-works h2{
+  font-size: 200%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+  .how-it-works p{
+    color: #777;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+
+.realtor{
+  text-align: center;
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.realtor p{
+  color: grey;
+  margin: 10px 0;
 }
